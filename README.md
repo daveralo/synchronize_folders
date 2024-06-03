@@ -17,7 +17,7 @@ For example:
 python app.py /folder/source/ /folder/replica/ 5 log.txt
 ```
 
-I used the following libraries ans methods:
+I used the following libraries and methods:
 * [os.walk()](https://www.w3schools.com/python/ref_os_walk.asp) method: To get the file and directory names in a directory tree by walking the tree.
 * [hashlib.sha256()](https://docs.python.org/3/library/hashlib.html) method: To create a SHA-256 hash object. I used it to compare files if any changed.
 * [os.makedirs](https://www.w3schools.com/python/ref_os_makedirs.asp) method: To create a directory recursively. 
